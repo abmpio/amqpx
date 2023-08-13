@@ -3,7 +3,7 @@ module github.com/abmpio/amqpx
 go 1.18
 
 require (
-	github.com/abmpio/configurationx v0.0.0-20230222093905-cdd959212331
+	github.com/abmpio/configurationx v0.0.0-20230713072959-39c660b4f462
 	github.com/rabbitmq/amqp091-go v1.7.0
 )
 
@@ -24,3 +24,5 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/abmpio/configurationx => ../configurationx
